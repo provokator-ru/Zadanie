@@ -41,8 +41,16 @@ namespace Zadanie
         {
             var num1 = Convert.ToDouble(textbox1.Text);
             var num2 = Convert.ToDouble(textbox2.Text);
-            var answer = num1 + num2;
-            vivod.Text = answer.ToString();
+            var num3 = num1 + num2;
+            vivod.Text = num3.ToString();
+        }
+
+        private void Button_Click2(object sender, RoutedEventArgs e)
+        {
+            var num1 = Convert.ToDouble(textbox1.Text);
+            var num2 = Convert.ToDouble(textbox2.Text);
+            var num3 = num1 / num2;
+            vivod.Text = num3.ToString();
         }
     }
 }

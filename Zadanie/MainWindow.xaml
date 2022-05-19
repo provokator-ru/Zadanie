@@ -13,5 +13,6 @@
         <TextBox x:Name="vivod" HorizontalAlignment="Center" Margin="0,261,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="208" Height="45" TextChanged="TextBox_TextChanged"/>
         <Label Content="Введите первое число" HorizontalAlignment="Left" Margin="95,81,0,0" VerticalAlignment="Top" Width="153"/>
         <Label Content="Введите второе число" HorizontalAlignment="Left" Margin="540,81,0,0" VerticalAlignment="Top" Width="173"/>
+        <Button Content="Разделить" HorizontalAlignment="Center" Margin="0,182,0,0" VerticalAlignment="Top" Height="51" Width="130" Click="Button_Click2"/>
     </Grid>
 </Window>
