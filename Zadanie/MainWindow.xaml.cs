@@ -49,8 +49,15 @@ namespace Zadanie
         {
             var num1 = Convert.ToDouble(textbox1.Text);
             var num2 = Convert.ToDouble(textbox2.Text);
-            var num3 = num1 / num2;
-            vivod.Text = num3.ToString();
+            if (num2 == 0)
+            {
+                vivod.Text = "Делить на ноль нельзя";
+            }
+            else
+            {
+                var num3 = num1 / num2;
+                vivod.Text = num3.ToString();
+            }
         }
     }
 }
